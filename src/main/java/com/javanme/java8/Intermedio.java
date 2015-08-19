@@ -1,6 +1,8 @@
 package com.javanme.java8;
 
 import java.nio.file.Path;
+import java.util.List;
+import java.util.Map;
 import java.util.OptionalInt;
 
 /**
@@ -41,8 +43,9 @@ public class Intermedio {
      * Crea una lista de palabras que se encuentran en el archivo pasado por parámetro, convertidas a minúsculas,
      * sin duplicados, ordenadas primero por tamaño y luego alfabeticamente.
      * Une todas las palabras en una cadena separando cada palabra por un espacio (" ")
-     * <p/>
-     * Usa la constante REGEXP proveida al inicio de esta clase para hacer la separación de cadenas de texto a palabras
+     *
+     * Usa la constante REGEXP proveida al inicio de esta clase para hacer la separación de cadenas de texto a palabras. Es posible
+     * que esta expresión retorne palabras vacías por lo que tendrás que adicionar un filtro que las remueva.
      *
      * @param archivo Ruta al archivo que se desea evaluar
      * @return Cadena de texto que contiene las palabras en minúsculas, sin duplicados, ordenadas por tamaño, luego alfabeticamente
@@ -50,9 +53,27 @@ public class Intermedio {
      * @see java.io.BufferedReader
      * @see java.util.stream.Stream
      * @see java.lang.String
+     * @see java.util.stream.Collectors
      */
     public String ejercicio3(Path archivo) {
+        throw new UnsupportedOperationException();
+    }
 
+    /**
+     * Categorizar TODAS las palabras de las primeras 10 líneas del archivo pasado por parámetro en un Map cuya llave es el
+     * número de caracteres y el valor es el listado de palabras que tienen esa cantidad de caracteres
+     * <p/>
+     * Usa la constante REGEXP proveida al inicio de esta clase para hacer la separación de cadenas de texto a palabras
+     *
+     * @param archivo Ruta al archivo que se desea evaluar
+     * @return Map cuya llave es la cantidad de caracteres y valor es el listado de palabras que tienen esa cantidad de
+     * caracteres en las primeras 10 líneas del archivo
+     * @see java.io.BufferedReader
+     * @see java.util.stream.Stream
+     * @see java.lang.String
+     * @see java.util.stream.Collectors
+     */
+    public Map<Integer, List<String>> ejercicio4(Path archivo) {
         throw new UnsupportedOperationException();
     }
 }
