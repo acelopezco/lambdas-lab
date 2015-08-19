@@ -36,6 +36,8 @@ public class Basico {
      *
      * @param listado cadenas de texto
      * @return Cadena de texto que se compone de la tercera, cuarta y quinta cadena de texto separadas por guiones
+     * @see java.util.stream.Stream
+     * @see java.util.stream.Collectors
      */
     public String ejercicio3(List<String> listado) {
         throw new UnsupportedOperationException();
@@ -48,6 +50,8 @@ public class Basico {
      *
      * @param listado números a ordenar
      * @return Listado de números en orden natural
+     * @see java.util.stream.Stream
+     * @see java.util.stream.Collectors
      */
     public List<Integer> ejercicio4(List<String> listado) {
         throw new UnsupportedOperationException();
@@ -59,6 +63,8 @@ public class Basico {
      *
      * @param listado cadenas de texto a ordenar
      * @return Listado ordenado primero por número de carácteres y luego alfabeticamente
+     * @see java.util.stream.Stream
+     * @see java.util.stream.Collectors
      */
     public List<String> ejercicio5(List<String> listado) {
         throw new UnsupportedOperationException();
