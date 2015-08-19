@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.OptionalInt;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,6 +22,15 @@ public class IntermedioTest {
         if (Files.exists(archivo)) {
             long resultado = ejercicios.ejercicio1(archivo);
             assertEquals(40, resultado);
+        }
+    }
+
+    @Test
+    public void ejercicio2() {
+        Path archivo = Paths.get("CaliPachanguero.txt");
+        if (Files.exists(archivo)) {
+            OptionalInt resultado = ejercicios.ejercicio2(archivo);
+            assertEquals(49, resultado.getAsInt());
         }
     }
 }
