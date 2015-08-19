@@ -74,4 +74,24 @@ public class IntermedioTest {
             assertFalse(resultado.containsKey("lambda"));
         }
     }
+
+    @Test
+    public void ejercicio6() {
+        Path archivo = Paths.get("CaliPachanguero.txt");
+        if (Files.exists(archivo)) {
+            Map<String, Map<Integer, List<String>>> resultado = ejercicios.ejercicio6(archivo);
+            assertEquals("[a]", resultado.get("A")
+                                         .get(1)
+                                         .toString());
+            assertEquals("[ausencia, adornado]", resultado.get("A")
+                                                          .get(8)
+                                                          .toString());
+            assertEquals("[sabes, sentí, siloé]", resultado.get("S")
+                                                           .get(5)
+                                                           .toString());
+            assertEquals(8, resultado.get("P")
+                                     .keySet()
+                                     .size());
+        }
+    }
 }

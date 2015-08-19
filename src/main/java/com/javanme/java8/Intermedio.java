@@ -97,5 +97,32 @@ public class Intermedio {
     public Map<String, Long> ejercicio5(Path archivo) {
         throw new UnsupportedOperationException();
     }
+
+    /**
+     * Crear una doble agrupación de palabras únicas del archivo pasado por parámetro. Hacer la agrupación
+     * en dos Maps. El Map externo tiene como llave la primera letra de la palabra en mayúsculas y como valor otro Map (el interno).
+     * El Map interno debe tener como llave la cantidad de letras y como valor un listado de palabras que tienen esa cantidad
+     * de letras.
+     * <p/>
+     * Por ejemplo, dadas las palabras "ermita sebastian sanisidro sancipriano cristorey chipichape"
+     * El Map externo tendrá las llaves "E", "C", "S"
+     * El valor para la llave "S" debe ser un Map con dos llaves: llave 9 y valor [sebastian sanisidro] (una lista de dos palabras)
+     * y otra llave 11 con el valor [sancipriano] (una lista de un solo item)
+     * <p/>
+     * Usa la constante REGEXP proveida al inicio de esta clase para hacer la separación de cadenas de texto a palabras. Es posible
+     * que esta expresión retorne palabras vacías por lo que tendrás que adicionar un filtro que las remueva.
+     * Pista: Pasa las palabras a minúsculas para que el méotodo distinct las pueda filtrar correctamente
+     *
+     * @param archivo Ruta al archivo que se desea evaluar
+     * @return Map cuya llave es la primera letra en mayúsculas de las palabras del archivo y su valor es otro Map cuya llave es la
+     * cantidad de letras y su valor es el listado de palabras que tienen esa cantidad de letras
+     * @see java.io.BufferedReader
+     * @see java.util.stream.Stream
+     * @see java.lang.String
+     * @see java.util.stream.Collectors
+     */
+    public Map<String, Map<Integer, List<String>>> ejercicio6(Path archivo) {
+        throw new UnsupportedOperationException();
+    }
 }
 
