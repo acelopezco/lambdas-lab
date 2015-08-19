@@ -60,4 +60,18 @@ public class IntermedioTest {
             assertFalse(resultado.containsKey(10));
         }
     }
+
+    @Test
+    public void ejercicio5() {
+        Path archivo = Paths.get("CaliPachanguero.txt");
+        if (Files.exists(archivo)) {
+            Map<String, Long> resultado = ejercicios.ejercicio5(archivo);
+            assertEquals(1L, (long) resultado.get("sabes"));
+            assertEquals(2L, (long) resultado.get("luz"));
+            assertEquals(6L, (long) resultado.get("Cali"));
+            assertEquals(4L, (long) resultado.get("la"));
+            assertEquals(1L, (long) resultado.get("Siloé"));
+            assertFalse(resultado.containsKey("lambda"));
+        }
+    }
 }
