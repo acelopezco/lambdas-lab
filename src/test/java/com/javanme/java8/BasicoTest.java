@@ -31,4 +31,12 @@ public class BasicoTest {
         assertEquals(Arrays.asList(
                 "De eso tan bueno no dan tanto", "Hoy no fío mañana sí", "Más vale pájaro en mano que cien volando", "Entre menos sepa mejor vivo", "La vejez al que no lo mata lo desfigura", "La plata se va y el burro queda"), resultado);
     }
+
+    @Test
+    public void ejercicio3() {
+        List<String> listado = Arrays.asList(
+                "Aprende", "a", "usar", "lambdas", "y Streams", "de", "Java 8");
+        String resultado = ejercicios.ejercicio3(listado);
+        assertEquals("usar-lambdas-y Streams", resultado);
+    }
 }

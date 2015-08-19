@@ -29,4 +29,15 @@ public class Basico {
     public List<String> ejercicio2(List<String> listado) {
         throw new UnsupportedOperationException();
     }
+
+    /**
+     * Del listado pasado como parámetro, une la tercera, cuarta y quinta cadena separadas por guión (-)
+     * Usa la API Stream
+     *
+     * @param listado cadenas de texto
+     * @return Cadena de texto que se compone de la tercera, cuarta y quinta cadena de texto separadas por guiones
+     */
+    public String ejercicio3(List<String> listado) {
+        throw new UnsupportedOperationException();
+    }
 }
