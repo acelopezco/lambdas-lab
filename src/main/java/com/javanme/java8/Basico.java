@@ -52,4 +52,15 @@ public class Basico {
     public List<Integer> ejercicio4(List<String> listado) {
         throw new UnsupportedOperationException();
     }
+
+    /**
+     * Ordernar el listado pasado como parámetro primero por tamaño de la cadena de texto y luego alfabeticamente
+     * Usa la API Stream
+     *
+     * @param listado cadenas de texto a ordenar
+     * @return Listado ordenado primero por número de carácteres y luego alfabeticamente
+     */
+    public List<String> ejercicio5(List<String> listado) {
+        throw new UnsupportedOperationException();
+    }
 }

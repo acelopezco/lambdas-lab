@@ -47,4 +47,12 @@ public class BasicoTest {
         List<Integer> resultado = ejercicios.ejercicio4(listado);
         assertEquals(Arrays.asList(1, 5, 10, 11, 20, 22, 100), resultado);
     }
+
+    @Test
+    public void ejercicio5() {
+        List<String> listado = Arrays.asList(
+                "Érase", "una", "vez", "unos", "desarrolladores", "que", "querían", "aprender", "lambdas", "y", "la", "API", "Stream");
+        List<String> resultado = ejercicios.ejercicio5(listado);
+        assertEquals(Arrays.asList("y", "la", "API", "que", "una", "vez", "unos", "Érase", "Stream", "lambdas", "querían", "aprender", "desarrolladores"), resultado);
+    }
 }
