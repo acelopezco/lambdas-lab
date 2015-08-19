@@ -40,4 +40,16 @@ public class Basico {
     public String ejercicio3(List<String> listado) {
         throw new UnsupportedOperationException();
     }
+
+    /**
+     * Ordernar el listado pasado como parámetro usando orden natural numérico.
+     * Atención, el listado contiene números, no cadenas de texto se debe hacer conversión.
+     * Usa la API Stream
+     *
+     * @param listado números a ordenar
+     * @return Listado de números en orden natural
+     */
+    public List<Integer> ejercicio4(List<String> listado) {
+        throw new UnsupportedOperationException();
+    }
 }

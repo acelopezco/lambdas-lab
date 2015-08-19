@@ -39,4 +39,12 @@ public class BasicoTest {
         String resultado = ejercicios.ejercicio3(listado);
         assertEquals("usar-lambdas-y Streams", resultado);
     }
+
+    @Test
+    public void ejercicio4() {
+        List<String> listado = Arrays.asList(
+                "10", "100", "20", "01", "22", "11", "5");
+        List<Integer> resultado = ejercicios.ejercicio4(listado);
+        assertEquals(Arrays.asList(1, 5, 10, 11, 20, 22, 100), resultado);
+    }
 }
