@@ -9,6 +9,8 @@ import java.util.OptionalInt;
  */
 public class Intermedio {
 
+    static final String REGEXP = "[- .:,]+"; // separa cadenas de texto en palabras
+
     /**
      * Contar el número de líneas no vacías que tiene el archivo pasado por parámetro
      * Usar nuevos métodos encontrados en la clase BufferedReader en Java 8
@@ -32,6 +34,25 @@ public class Intermedio {
      * @see java.util.stream.IntStream
      */
     public OptionalInt ejercicio2(Path archivo) {
+        throw new UnsupportedOperationException();
+    }
+
+    /**
+     * Crea una lista de palabras que se encuentran en el archivo pasado por parámetro, convertidas a minúsculas,
+     * sin duplicados, ordenadas primero por tamaño y luego alfabeticamente.
+     * Une todas las palabras en una cadena separando cada palabra por un espacio (" ")
+     * <p/>
+     * Usa la constante REGEXP proveida al inicio de esta clase para hacer la separación de cadenas de texto a palabras
+     *
+     * @param archivo Ruta al archivo que se desea evaluar
+     * @return Cadena de texto que contiene las palabras en minúsculas, sin duplicados, ordenadas por tamaño, luego alfabeticamente
+     * y cada palabra está separada por un espacio
+     * @see java.io.BufferedReader
+     * @see java.util.stream.Stream
+     * @see java.lang.String
+     */
+    public String ejercicio3(Path archivo) {
+
         throw new UnsupportedOperationException();
     }
 }
