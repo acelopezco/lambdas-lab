@@ -20,11 +20,11 @@ public class Basico {
     }
 
     /**
-     * Del listado de cadenas de texto eliminar las cadenas de ese listado cuyo tamaño sea inferior a 10 carácteres
+     * Del listado de cadenas de texto eliminar las cadenas de ese listado cuyo tamaño sea inferior a 10 caracteres
      * Trata de usar uno de los nuevos métodos adicionados a las listas en Java 8
      *
      * @param listado cadenas de texto
-     * @return lista que contiene cadenas de texto cuyo tamaño de carácteres es superior a 10
+     * @return lista que contiene cadenas de texto cuyo tamaño de caracteres es superior a 10
      */
     public List<String> ejercicio2(List<String> listado) {
         throw new UnsupportedOperationException();
@@ -62,7 +62,7 @@ public class Basico {
      * Usa la API Stream
      *
      * @param listado cadenas de texto a ordenar
-     * @return Listado ordenado primero por número de carácteres y luego alfabeticamente
+     * @return Listado ordenado primero por número de caracteres y luego alfabeticamente
      * @see java.util.stream.Stream
      * @see java.util.stream.Collectors
      */
