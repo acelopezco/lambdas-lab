@@ -14,12 +14,12 @@ public class Intermedio {
     static final String REGEXP = "[- .:,]+"; // separa cadenas de texto en palabras
 
     /**
-     * Contar el número de líneas no vacías que tiene el archivo pasado por parámetro
-     * Usar nuevos métodos encontrados en la clase BufferedReader en Java 8
+     * Contar el número de líneas no vacías que tiene el archivo pasado por parámetro.
+     * Usar nuevos métodos encontrados en la clase java.nio.file.Files en Java 8 para obtener un Stream de un archivo.
      *
      * @param archivo Ruta al archivo que se desea evaluar
      * @return Cantidad de líneas en el archivo
-     * @see java.io.BufferedReader
+     * @see java.nio.file.Files
      * @see java.util.stream.Stream
      */
     public long ejercicio1(Path archivo) {
