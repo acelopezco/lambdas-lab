@@ -15,7 +15,8 @@ public class Intermedio {
 
     /**
      * Contar el número de líneas no vacías que tiene el archivo pasado por parámetro.
-     * Usar nuevos métodos encontrados en la clase java.nio.file.Files en Java 8 para obtener un Stream de un archivo.
+     * Usar nuevos métodos encontrados en la clase java.nio.file.Files en Java 8 para obtener un Stream de 
+     * las líneas de texto un archivo.
      *
      * @param archivo Ruta al archivo que se desea evaluar
      * @return Cantidad de líneas en el archivo
@@ -27,11 +28,14 @@ public class Intermedio {
     }
 
     /**
-     * Encuentra el número de caracteres que tiene la línea más larga del archivo
+     * Encuentra el número de caracteres que tiene la línea más larga del archivo.
+     * Usar nuevos métodos encontrados en la clase java.nio.file.Files en Java 8 para obtener un Stream de 
+     * las líneas de texto de un archivo.
+     * Para poder obtener un OptionalInt como resultado, debes convertir el Stream a uno primitivo. 
      *
      * @param archivo Ruta al archivo que se desea evaluar
      * @return Cantidad de caracteres que tiene la línea más larga del archivo
-     * @see java.io.BufferedReader
+     * @see java.nio.file.Files
      * @see java.util.stream.Stream
      * @see java.util.stream.IntStream
      */
