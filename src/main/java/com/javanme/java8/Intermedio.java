@@ -44,12 +44,13 @@ public class Intermedio {
     }
 
     /**
-     * Crea una lista de palabras que se encuentran en el archivo pasado por parámetro, convertidas a minúsculas,
+     * De las palabras que se encuentran en el archivo pasado por parámetro, conviertelas a minúsculas,
      * sin duplicados, ordenadas primero por tamaño y luego alfabeticamente.
-     * Une todas las palabras en una cadena separando cada palabra por un espacio (" ")
      *
-     * Usa la constante REGEXP proveida al inicio de esta clase para hacer la separación de cadenas de texto a palabras. Es posible
-     * que esta expresión retorne palabras vacías por lo que tendrás que adicionar un filtro que las remueva.
+     * Une todas las palabras en una cadena de texto separando cada palabra por un espacio (" ")
+     *
+     * Usa la constante REGEXP proveida al inicio de esta clase para hacer la separación de cadenas de texto a palabras. 
+     * Es posible que esta expresión retorne palabras vacías por lo que tendrás que adicionar un filtro que las remueva.
      *
      * @param archivo Ruta al archivo que se desea evaluar
      * @return Cadena de texto que contiene las palabras en minúsculas, sin duplicados, ordenadas por tamaño, luego alfabeticamente
