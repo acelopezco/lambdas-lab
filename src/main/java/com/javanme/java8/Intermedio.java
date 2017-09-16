@@ -85,7 +85,7 @@ public class Intermedio {
 
 
     /**
-     * Categorizar TODAS las palabras de las primeras 30 líneas del archivo pasado por parámetro en un Map cuya llave es la
+     * Categorizar TODAS las palabras de las primeras 100 líneas del archivo pasado por parámetro en un Map cuya llave es la
      * palabra y el valor es la cantidad de veces que se repite la palabra
      * <p/>
      * Usa la constante REGEXP proveida al inicio de esta clase para hacer la separación de cadenas de texto a palabras. Es posible
