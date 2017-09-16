@@ -55,7 +55,7 @@ public class Intermedio {
      * @param archivo Ruta al archivo que se desea evaluar
      * @return Cadena de texto que contiene las palabras en minúsculas, sin duplicados, ordenadas por tamaño, luego alfabeticamente
      * y cada palabra está separada por un espacio
-     * @see java.io.BufferedReader
+     * @see java.nio.file.Files
      * @see java.util.stream.Stream
      * @see java.lang.String
      * @see java.util.stream.Collectors
@@ -93,8 +93,8 @@ public class Intermedio {
      *
      * @param archivo Ruta al archivo que se desea evaluar
      * @return Map cuya llave son las palabras de las primeras 30 líneas del archivo y su valor es la cantidad de veces que se repite
-     * dicha palabra en las primeras 30 líneas del archivo
-     * @see java.io.BufferedReader
+     * dicha palabra en las primeras 100 líneas del archivo
+     * @see java.nio.file.Files
      * @see java.util.stream.Stream
      * @see java.lang.String
      * @see java.util.stream.Collectors
@@ -121,7 +121,7 @@ public class Intermedio {
      * @param archivo Ruta al archivo que se desea evaluar
      * @return Map cuya llave es la primera letra en mayúsculas de las palabras del archivo y su valor es otro Map cuya llave es la
      * cantidad de letras y su valor es el listado de palabras que tienen esa cantidad de letras
-     * @see java.io.BufferedReader
+     * @see java.nio.file.Files
      * @see java.util.stream.Stream
      * @see java.lang.String
      * @see java.util.stream.Collectors
