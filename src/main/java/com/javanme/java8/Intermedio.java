@@ -74,7 +74,7 @@ public class Intermedio {
      * @param archivo Ruta al archivo que se desea evaluar
      * @return Map cuya llave es la cantidad de caracteres y valor es el listado de palabras que tienen esa cantidad de
      * caracteres en las primeras 10 líneas del archivo
-     * @see java.io.BufferedReader
+     * @see java.nio.file.Files
      * @see java.util.stream.Stream
      * @see java.lang.String
      * @see java.util.stream.Collectors
