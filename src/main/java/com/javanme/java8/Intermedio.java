@@ -92,7 +92,7 @@ public class Intermedio {
      * que esta expresión retorne palabras vacías por lo que tendrás que adicionar un filtro que las remueva.
      *
      * @param archivo Ruta al archivo que se desea evaluar
-     * @return Map cuya llave son las palabras de las primeras 30 líneas del archivo y su valor es la cantidad de veces que se repite
+     * @return Map cuya llave son las palabras de las primeras 100 líneas del archivo y su valor es la cantidad de veces que se repite
      * dicha palabra en las primeras 100 líneas del archivo
      * @see java.nio.file.Files
      * @see java.util.stream.Stream
