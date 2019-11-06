@@ -2,6 +2,7 @@ package com.javanme.java8;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -27,7 +28,7 @@ public class BasicoTest {
     public void ejercicio2() {
         List<String> listado = Arrays.asList(
                 "A la una", "De eso tan bueno no dan tanto", "Hoy no fío mañana sí", "A las dos", "Más vale pájaro en mano que cien volando", "Entre menos sepa mejor vivo", "La vejez al que no lo mata lo desfigura", "y", "A las tres", "La plata se va y el burro queda");
-        List<String> resultado = ejercicios.ejercicio2(listado);
+        List<String> resultado = ejercicios.ejercicio2(new ArrayList<>(listado));
         assertEquals(Arrays.asList(
                 "De eso tan bueno no dan tanto", "Hoy no fío mañana sí", "Más vale pájaro en mano que cien volando", "Entre menos sepa mejor vivo", "La vejez al que no lo mata lo desfigura", "La plata se va y el burro queda"), resultado);
     }
